@@ -16,7 +16,7 @@ session_start();
 			<p class="lead">Ejemplo de ver, agregar, actualizar, eliminar con PHP y MySQL</p>
 			<p>Instrucciones:</p>
 			<ol>
-				<li>Ir a la opcion ver.</li>
+				<li>Ir a la opcion <a href="ver.php">ver</a></li>
 				<li>Agregar elementos desde el boton agregar.</li>
 				<li>Seleccionar el boton Editar de cualquier elemento.</li>
 				<li>Seleccionar el boton Eliminar de cualquier elemento.</li>
