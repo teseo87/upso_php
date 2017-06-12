@@ -1,4 +1,6 @@
-<? session_start();
+<?
+error_reporting(E_ALL);
+session_start();
 if (!isset($_SESSION["cuenta_paginas"])){
     $_SESSION["cuenta_paginas"] = 1;
 }else{
