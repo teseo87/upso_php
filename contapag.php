@@ -1,4 +1,5 @@
-<?
+<?php
+
 error_reporting(E_ALL);
 session_start();
 if (!isset($_SESSION["cuenta_paginas"])){
@@ -6,6 +7,7 @@ if (!isset($_SESSION["cuenta_paginas"])){
 }else{
     $_SESSION["cuenta_paginas"]++;
 }
+
 ?>
 <html>
 <head>
@@ -13,8 +15,10 @@ if (!isset($_SESSION["cuenta_paginas"])){
 </head>
 
 <body>
-<?
-echo "Desde que entraste has visto " . $_SESSION["cuenta_paginas"] . " páginas";
+<?php
+
+    echo "Desde que entraste has visto " . $_SESSION["cuenta_paginas"] . " páginas";
+
 ?>
 <br>
 <br>
