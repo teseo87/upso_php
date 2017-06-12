@@ -1,4 +1,4 @@
-<?
+<?php
 session_register('contador');
 ?>
 <HTML>
@@ -6,11 +6,12 @@ session_register('contador');
 <TITLE>contador.php</TITLE>
 </HEAD>
 <BODY>
-<?
-If (isset($contador)==0)
-{$contador=0;}
+<?php
+if(isset($contador)==0) {
+  $contador=0;
+}
 ++$contador;
-echo "<a href="contador.php">Has recargado esta página $contador veces</a>";
+echo "<a href='contador.php'>Has recargado esta página $contador veces</a>";
 ?>
 </BODY>
 </HTML>
