@@ -16,6 +16,6 @@ echo "Desde que entraste has visto " . $_SESSION["cuenta_paginas"] . " páginas"
 ?>
 <br>
 <br>
-<a href="otracuenta.php">Ver otra página</a>
+<a href="contapag.php">Ver otra página</a>
 </body>
 </html>
